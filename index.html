@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Bootstrap 5</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <!-- navbar starts here -->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light shadow-sm">
+        <div class="container-lg mt-1 mb-1">
+            <a class="navbar-brand text-success fw-bold fs-4" href="#"><i class="fas fa-desktop"></i> Digital Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active fs-5" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#hobbies">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5" href="#webapp">Webapp Idea</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+    <!-- navbar ends here -->
+
+    <!--home section starts here-->
+
+    <section class="home py-5 bg-light" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="img/pfp.jpg" class="rounded-circle mw-100" alt="profile img">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                    <div class="home-text">
+                        <h1 class="text-success text-uppercase fs-1 fw-bold">Computer Science Student</h1>
+                        <h2 class="fs-4">Wincyr Jan Dela Calzada</h2>
+                        <p class="mt-4 text-muted">"Ako'y isang itlog, na may pusong cheesecake"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--home section ends here-->
+
+    <!--about sections starts here-->
+
+    <section class="about py-5" id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold fs-1 mb-5">About Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="about-text text-center">
+                        <p class="fs-5 text-muted">My name is Wincyr Jan Pardilla Dela Calzada. I was born on October 23, 2001. I live in Davao City, Philippines. I am currently a Bachelor of Science in Computer Science student at the University of the Immaculate Conception. I'm a pretty low-key person so I guess I don't have that much achievements in life but I'm a consistent honor student when I was elementary and on JHS and SHS I was an honor student but not really consistent.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about sections ends here-->
+
+    <!--hobbies section starts here-->
+
+    <section class="hobbies py-5" id="hobbies">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">What I do</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded">
+                        <div class="icon my-3 text-success fs-2">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Competitive Online Games</h3>
+                        <p class="text-muted">I like to play competitive games like Valorant and League of Legends.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded">
+                        <div class="icon my-3 text-success fs-2">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Edit Videos</h3>
+                        <p class="text-muted">I started learning how to edit in Adobe After Effects on 2020.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded">
+                        <div class="icon my-3 text-success fs-2">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Play Piano</h3>
+                        <p class="text-muted">I like playing piano usually when I'm bored or when I want to bring out the music in me.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-dark">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5 text-light">Sample Hobbies</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <video controls class="w-100 img-thumbnail" >
+                            <source src="img/clip3.mp4" type ="video/mp4">
+                        </video>
+                        <h3 class="text-capitalize fs-5 my-2 text-light">my valorant highlight clip</h3>
+                        <p class="mb-4"><a class="text-success text-decoration-none">Sample Video</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <video controls class="w-100 img-thumbnail" >
+                            <source src="img/chiwon.mp4" type ="video/mp4">
+                        </video>
+                        <h3 class="text-capitalize fs-5 my-2 text-light">my video edit</h3>
+                        <p class="mb-4"><a class="text-success text-decoration-none">Sample Video</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <video controls class="w-100 img-thumbnail" >
+                            <source src="img/1.mp4" type ="video/mp4">
+                        </video>
+                        <h3 class="text-capitalize fs-5 my-2 text-light">my short piano cover</h3>
+                        <p class="mb-4"><a class="text-success text-decoration-none">Sample Video</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--hobbies section ends here-->
+
+
+    <!--contact section starts here-->
+
+    <section class="contact py-5" id="contact">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="section-title text-center">
+                    <h2 class = "fw-bold mb-5"> Contact Information </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-5">
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-success">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Email</h3>
+                            <p class="text-muted">wdelacalzada_200000000970@uic.edu.ph</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-success">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Phone</h3>
+                            <p class="text-muted">+63 967 405 ****</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-success">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Visit Office</h3>
+                            <p class="text-muted">University of the Immaculate Conception Main Campus, Father Selga St., Davao City</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div id="map"></div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!--contact section starts here-->
+
+    <!--portfolio section starts here-->
+
+    <section class="webapp py-5 bg-dark" id="webapp">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5 text-light">Webapp Idea</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-lg">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <a href="webappidea/webapp.html" class="btn btn-outline-success px-3 mt-3">Webapp Idea</a>
+                        <p class="text-muted mt-3">Check out what we did as a group</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio section ends here-->
+
+
+
+    <!--footer section starts here-->
+
+    <footer class="footer border-top py-4">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-muted">&copy; 2021 Wincyr Jan Dela Calzada | All rights reserved! </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--footer section ends here-->
+
+
+    
+    
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiaXRzeXdpbnp5c3BpZGVyIiwiYSI6ImNrdWxkbnl1MjFmOXIybm96dzNoODc3NjYifQ.KaNSGqg5QHJmjUptqKE0rw';
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center: [125.6001, 7.0699],
+    zoom: 18,
+    });
+</script>  
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Bootstrap 5</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <!-- navbar starts here -->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light shadow-sm">
+        <div class="container-lg mt-1 mb-1">
+            <a class="navbar-brand text-danger fw-bold fs-4" href="#"><i class="fas fa-lightbulb"></i> Webapp Idea</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active fs-5" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5" href="#works">Latest Works</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+    <!-- navbar ends here -->
+
+    <!--home section starts here-->
+
+    <section class="home py-5 bg-light" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="img/pfp.jpg" class="rounded-circle mw-100" alt="profile img">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                    <div class="home-text">
+                        <h2 class="fs-4">Welcome, This is Webapp Idea</h2>
+                        <h1 class="text-danger text-uppercase fs-1 fw-bold">buy-d-hour</h1>
+                        <p class="mt-4 text-muted">"We come to you, By-the-hour"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--home section ends here-->
+
+    <!--about sections starts here-->
+
+    <section class="about py-5" id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold fs-1 mb-5">About</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="about-text text-center">
+                        <p class="fs-5 text-muted">Buy-D-Hour offers a simple and secure delivery for your needs; may it be food, goods, hardware products, cleaning products, and anything that you might need. Buy-D-Hour cares for the welfare for its customers and as well as its workers by providing you with an option of a contactless delivery; As a means of following the protocols for COVID-19. If you want something, and you want it quick, worry not for we come to you, By-the-hour</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about sections ends here-->
+
+    <!--works section starts here-->
+
+    <section class="works py-5 bg-dark" id="works">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5 text-light">What we were working on</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/buy-d-hour.jpg" class="w-100 img-thumbnail">
+                        <h3 class="text-capitalize fs-5 my-2 text-light">Buy-D-Hour Official Website</h3>
+                        <p class="mb-4"><a href="http://buy-d-hour.herokuapp.com" class="btn btn-outline-danger text-decoration-none">Buy-D-Hour</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/nsdb.png" class="w-100 img-thumbnail">
+                        <h3 class="text-capitalize fs-5 my-2 text-light">Buy-D-Hour NDSB Slides</h3>
+                        <p class="mb-4"><a href="https://docs.google.com/presentation/d/1R5RrChjzNAQHcn83L4NK1PWd0aG-MTZG3cx-iJt1Kfw/edit?usp=sharing" class="btn btn-outline-danger text-decoration-none">NSDB Slides</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/concept video.jpg" class="w-100 img-thumbnail">
+                        <h3 class="text-capitalize fs-5 my-2 text-light">Buy-D-Hour Concept Video</h3>
+                        <p class="mb-4"><a href="https://youtu.be/DhdFhqwBQ28" class="btn btn-outline-danger text-decoration-none">Concept Video</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--works section ends here-->
+
+
+    <!--footer section starts here-->
+
+    <footer class="footer border-top py-4">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-muted">&copy; 2021 Buy-D-Hour | All rights reserved! </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--footer section ends here-->
+
+
+    
+    
+<script src="js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
